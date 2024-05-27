@@ -1,0 +1,38 @@
+name: Fetch and Process Data
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Runs every week (Sunday at midnight)
+  push:
+    branches:
+      - main  # Adjust to your main branch name if different
+  workflow_dispatch:  # Allows for manual triggering
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Run script
+      run: python fetch_and_process_data.py
+
+    - name: Commit changes
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add states.json
+        git commit -m "Update states data $(date)"
+        git push
