@@ -9,7 +9,7 @@ def fetch_and_process_data():
 
     processed_data = []
 
-    for country in data["countries"]:
+    for country in data:
         country_data = {
             "name": country["name"],
             "states": [{"name": state["name"]} for state in country["states"]]
