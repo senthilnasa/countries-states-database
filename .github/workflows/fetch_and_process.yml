@@ -1,40 +1,36 @@
-name: Fetch and Process Data
+name: Deploy States JSON to GitHub Pages
 
 on:
   schedule:
-    - cron: '0 0 * * 0'  # Runs every week (Sunday at midnight)
-  push:
-    branches:
-      - master
-  workflow_dispatch:  # Allows for manual triggering
+    # Runs at 06:00 UTC every Monday
+    - cron: '0 6 * * 1'
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout code
       uses: actions/checkout@v2
 
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'
+        python-version: '3.8'
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests
+        pip install requests  # Ensure the requests module is installed
 
-    - name: Run script
-      run: python fetch_and_process_data.py
-
-    - name: Commit and push changes
+    - name: Run script to generate states.json
       run: |
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
-        git add states.json
-        git commit -m "Update states data $(date)"
-        git push
-      env:
-        GITHUB_TOKEN: ${{secrets.GP_TOKEN}}
+        python your_script.py  # Replace with the path to your Python script
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GP_TOKEN }}
+        publish_dir: './'  # The directory where your states.json is output
+        publish_branch: 'gh-pages'  # Branch to push to, replace with your target branch
+        keep_files: false  # Set to true to not cleanup existing files in the branch
