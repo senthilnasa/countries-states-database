@@ -5,7 +5,7 @@ on:
     - cron: '0 0 * * 0'  # Runs every week (Sunday at midnight)
   push:
     branches:
-      - master  # Adjust to your main branch name if different
+      - master
   workflow_dispatch:  # Allows for manual triggering
 
 jobs:
@@ -29,10 +29,12 @@ jobs:
     - name: Run script
       run: python fetch_and_process_data.py
 
-    - name: Commit changes
+    - name: Commit and push changes
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
         git add states.json
         git commit -m "Update states data $(date)"
         git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
