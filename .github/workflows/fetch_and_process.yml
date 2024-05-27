@@ -5,7 +5,7 @@ on:
     - cron: '0 0 * * 0'  # Runs every week (Sunday at midnight)
   push:
     branches:
-      - main  # Adjust to your main branch name if different
+      - master  # Adjust to your main branch name if different
   workflow_dispatch:  # Allows for manual triggering
 
 jobs:
