@@ -19,7 +19,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'
+        python-version: '3.9.6'
 
     - name: Install dependencies
       run: |
@@ -37,4 +37,4 @@ jobs:
         git commit -m "Update states data $(date)"
         git push
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.BUILD_TOKEN }}
