@@ -28,7 +28,7 @@ jobs:
 
     - name: Run script to generate states.json
       run: |
-        python your_script.py  # Ensure this is the path to your script
+        python fetch_and_process_data.py  
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
