@@ -3903,7 +3903,26 @@
     },
     {
         "name": "Faroe Islands",
-        "states": []
+        "states": [
+            {
+                "name": "Eysturoy"
+            },
+            {
+                "name": "Northern Isles"
+            },
+            {
+                "name": "Sandoy"
+            },
+            {
+                "name": "Streymoy"
+            },
+            {
+                "name": "Su\u00f0uroy"
+            },
+            {
+                "name": "V\u00e1gar"
+            }
+        ]
     },
     {
         "name": "Fiji Islands",
@@ -8074,10 +8093,10 @@
                 "name": "Rabat"
             },
             {
-                "name": "Saint Lawrence"
+                "name": "San \u0120wann"
             },
             {
-                "name": "San \u0120wann"
+                "name": "San Lawrenz"
             },
             {
                 "name": "Sannat"
@@ -10064,6 +10083,9 @@
                 "name": "East New Britain"
             },
             {
+                "name": "East Sepik"
+            },
+            {
                 "name": "Eastern Highlands Province"
             },
             {
@@ -10562,52 +10584,52 @@
         "name": "Poland",
         "states": [
             {
-                "name": "Greater Poland Voivodeship"
+                "name": "Greater Poland"
             },
             {
-                "name": "Kuyavian-Pomeranian Voivodeship"
+                "name": "Holy Cross"
             },
             {
-                "name": "Lesser Poland Voivodeship"
+                "name": "Kuyavia-Pomerania"
             },
             {
-                "name": "Lower Silesian Voivodeship"
+                "name": "Lesser Poland"
             },
             {
-                "name": "Lublin Voivodeship"
+                "name": "Lower Silesia"
             },
             {
-                "name": "Lubusz Voivodeship"
+                "name": "Lublin"
             },
             {
-                "name": "\u0141\u00f3d\u017a Voivodeship"
+                "name": "Lubusz"
             },
             {
-                "name": "Masovian Voivodeship"
+                "name": "\u0141\u00f3d\u017a"
             },
             {
-                "name": "Opole Voivodeship"
+                "name": "Mazovia"
             },
             {
-                "name": "Podkarpackie Voivodeship"
+                "name": "Podlaskie"
             },
             {
-                "name": "Podlaskie Voivodeship"
+                "name": "Pomerania"
             },
             {
-                "name": "Pomeranian Voivodeship"
+                "name": "Silesia"
             },
             {
-                "name": "Silesian Voivodeship"
+                "name": "Subcarpathia"
             },
             {
-                "name": "\u015awi\u0119tokrzyskie Voivodeship"
+                "name": "Upper Silesia"
             },
             {
-                "name": "Warmian-Masurian Voivodeship"
+                "name": "Warmia-Masuria"
             },
             {
-                "name": "West Pomeranian Voivodeship"
+                "name": "West Pomerania"
             }
         ]
     },
