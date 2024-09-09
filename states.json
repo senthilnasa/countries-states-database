@@ -989,214 +989,28 @@
         "name": "Bangladesh",
         "states": [
             {
-                "name": "Bagerhat District"
+                "name": "Barisal "
             },
             {
-                "name": "Bahadia"
+                "name": "Chittagong "
             },
             {
-                "name": "Bandarban District"
+                "name": "Dhaka "
             },
             {
-                "name": "Barguna District"
+                "name": "Khulna "
             },
             {
-                "name": "Barisal District"
+                "name": "Mymensingh "
             },
             {
-                "name": "Barisal Division"
+                "name": "Rajshahi "
             },
             {
-                "name": "Bhola District"
+                "name": "Rangpur "
             },
             {
-                "name": "Bogra District"
-            },
-            {
-                "name": "Brahmanbaria District"
-            },
-            {
-                "name": "Chandpur District"
-            },
-            {
-                "name": "Chapai Nawabganj District"
-            },
-            {
-                "name": "Chittagong District"
-            },
-            {
-                "name": "Chittagong Division"
-            },
-            {
-                "name": "Chuadanga District"
-            },
-            {
-                "name": "Comilla District"
-            },
-            {
-                "name": "Cox's Bazar District"
-            },
-            {
-                "name": "Dhaka District"
-            },
-            {
-                "name": "Dhaka Division"
-            },
-            {
-                "name": "Dinajpur District"
-            },
-            {
-                "name": "Faridpur District"
-            },
-            {
-                "name": "Feni District"
-            },
-            {
-                "name": "Gaibandha District"
-            },
-            {
-                "name": "Gazipur District"
-            },
-            {
-                "name": "Gopalganj District"
-            },
-            {
-                "name": "Habiganj District"
-            },
-            {
-                "name": "Jamalpur District"
-            },
-            {
-                "name": "Jessore District"
-            },
-            {
-                "name": "Jhalokati District"
-            },
-            {
-                "name": "Jhenaidah District"
-            },
-            {
-                "name": "Joypurhat District"
-            },
-            {
-                "name": "Khagrachari District"
-            },
-            {
-                "name": "Khulna District"
-            },
-            {
-                "name": "Khulna Division"
-            },
-            {
-                "name": "Kishoreganj District"
-            },
-            {
-                "name": "Kurigram District"
-            },
-            {
-                "name": "Kushtia District"
-            },
-            {
-                "name": "Lakshmipur District"
-            },
-            {
-                "name": "Lalmonirhat District"
-            },
-            {
-                "name": "Madaripur District"
-            },
-            {
-                "name": "Meherpur District"
-            },
-            {
-                "name": "Moulvibazar District"
-            },
-            {
-                "name": "Munshiganj District"
-            },
-            {
-                "name": "Mymensingh District"
-            },
-            {
-                "name": "Mymensingh Division"
-            },
-            {
-                "name": "Naogaon District"
-            },
-            {
-                "name": "Narail District"
-            },
-            {
-                "name": "Narayanganj District"
-            },
-            {
-                "name": "Natore District"
-            },
-            {
-                "name": "Netrokona District"
-            },
-            {
-                "name": "Nilphamari District"
-            },
-            {
-                "name": "Noakhali District"
-            },
-            {
-                "name": "Pabna District"
-            },
-            {
-                "name": "Panchagarh District"
-            },
-            {
-                "name": "Patuakhali District"
-            },
-            {
-                "name": "Pirojpur District"
-            },
-            {
-                "name": "Rajbari District"
-            },
-            {
-                "name": "Rajshahi District"
-            },
-            {
-                "name": "Rajshahi Division"
-            },
-            {
-                "name": "Rangamati Hill District"
-            },
-            {
-                "name": "Rangpur District"
-            },
-            {
-                "name": "Rangpur Division"
-            },
-            {
-                "name": "Satkhira District"
-            },
-            {
-                "name": "Shariatpur District"
-            },
-            {
-                "name": "Sherpur District"
-            },
-            {
-                "name": "Sirajganj District"
-            },
-            {
-                "name": "Sunamganj District"
-            },
-            {
-                "name": "Sylhet District"
-            },
-            {
-                "name": "Sylhet Division"
-            },
-            {
-                "name": "Tangail District"
-            },
-            {
-                "name": "Thakurgaon District"
+                "name": "Sylhet "
             }
         ]
     },
@@ -1408,61 +1222,64 @@
         "name": "Bhutan",
         "states": [
             {
-                "name": "Bumthang District"
+                "name": "Bumthang "
             },
             {
-                "name": "Chukha District"
+                "name": "Chukha "
             },
             {
-                "name": "Dagana District"
+                "name": "Dagana "
             },
             {
-                "name": "Gasa District"
+                "name": "Gasa "
             },
             {
-                "name": "Haa District"
+                "name": "Haa "
             },
             {
-                "name": "Lhuntse District"
+                "name": "Lhuntse "
             },
             {
-                "name": "Mongar District"
+                "name": "Mongar "
             },
             {
-                "name": "Paro District"
+                "name": "Paro "
             },
             {
-                "name": "Pemagatshel District"
+                "name": "Pemagatshel "
             },
             {
-                "name": "Punakha District"
+                "name": "Punakha "
             },
             {
-                "name": "Samdrup Jongkhar District"
+                "name": "Samdrup Jongkhar "
             },
             {
-                "name": "Samtse District"
+                "name": "Samtse "
             },
             {
-                "name": "Sarpang District"
+                "name": "Sarpang "
             },
             {
-                "name": "Thimphu District"
+                "name": "Thimphu "
             },
             {
-                "name": "Trashigang District"
+                "name": "Trashi Yangtse\t"
             },
             {
-                "name": "Trongsa District"
+                "name": "Trashigang "
             },
             {
-                "name": "Tsirang District"
+                "name": "Trongsa "
             },
             {
-                "name": "Wangdue Phodrang District"
+                "name": "Tsirang "
             },
             {
-                "name": "Zhemgang District"
+                "name": "Wangdue Phodrang "
+            },
+            {
+                "name": "Zhemgang "
             }
         ]
     },
@@ -4467,29 +4284,6 @@
         ]
     },
     {
-        "name": "Gambia The",
-        "states": [
-            {
-                "name": "Banjul"
-            },
-            {
-                "name": "Central River Division"
-            },
-            {
-                "name": "Lower River Division"
-            },
-            {
-                "name": "North Bank Division"
-            },
-            {
-                "name": "Upper River Division"
-            },
-            {
-                "name": "West Coast Division"
-            }
-        ]
-    },
-    {
         "name": "Georgia",
         "states": [
             {
@@ -4558,7 +4352,7 @@
                 "name": "Hamburg"
             },
             {
-                "name": "Hesse"
+                "name": "Hessen"
             },
             {
                 "name": "Lower Saxony"
@@ -4807,67 +4601,70 @@
         "name": "Guatemala",
         "states": [
             {
-                "name": "Alta Verapaz Department"
+                "name": "Alta Verapaz "
             },
             {
-                "name": "Baja Verapaz Department"
+                "name": "Baja Verapaz "
             },
             {
-                "name": "Chimaltenango Department"
+                "name": "Chimaltenango "
             },
             {
-                "name": "Chiquimula Department"
+                "name": "Chiquimula "
             },
             {
-                "name": "El Progreso Department"
+                "name": "El Progreso "
             },
             {
-                "name": "Escuintla Department"
+                "name": "Escuintla "
             },
             {
-                "name": "Guatemala Department"
+                "name": "Guatemala "
             },
             {
-                "name": "Huehuetenango Department"
+                "name": "Huehuetenango "
             },
             {
-                "name": "Izabal Department"
+                "name": "Izabal "
             },
             {
-                "name": "Jalapa Department"
+                "name": "Jalapa "
             },
             {
-                "name": "Jutiapa Department"
+                "name": "Jutiapa "
             },
             {
-                "name": "Pet\u00e9n Department"
+                "name": "Pet\u00e9n "
             },
             {
-                "name": "Quetzaltenango Department"
+                "name": "Quetzaltenango "
             },
             {
-                "name": "Quich\u00e9 Department"
+                "name": "Quich\u00e9 "
             },
             {
-                "name": "Retalhuleu Department"
+                "name": "Retalhuleu "
             },
             {
-                "name": "Sacatep\u00e9quez Department"
+                "name": "Sacatep\u00e9quez "
             },
             {
-                "name": "San Marcos Department"
+                "name": "San Marcos "
             },
             {
-                "name": "Santa Rosa Department"
+                "name": "Santa Rosa "
             },
             {
-                "name": "Solol\u00e1 Department"
+                "name": "Solol\u00e1 "
             },
             {
-                "name": "Suchitep\u00e9quez Department"
+                "name": "Suchitep\u00e9quez "
             },
             {
-                "name": "Totonicap\u00e1n Department"
+                "name": "Totonicap\u00e1n "
+            },
+            {
+                "name": "Zacapa"
             }
         ]
     },
@@ -5583,6 +5380,18 @@
             },
             {
                 "name": "Papua Barat"
+            },
+            {
+                "name": "Papua Barat Daya"
+            },
+            {
+                "name": "Papua Pegunungan"
+            },
+            {
+                "name": "Papua Selatan"
+            },
+            {
+                "name": "Papua Tengah"
             },
             {
                 "name": "Riau"
@@ -9117,61 +8926,25 @@
         "name": "Nepal",
         "states": [
             {
-                "name": "Bagmati Zone"
+                "name": "Bagmati"
             },
             {
-                "name": "Bheri Zone"
+                "name": "Gandaki"
             },
             {
-                "name": "Central Region"
+                "name": "Karnali"
             },
             {
-                "name": "Dhaulagiri Zone"
+                "name": "Koshi"
             },
             {
-                "name": "Eastern Development Region"
+                "name": "Lumbini"
             },
             {
-                "name": "Far-Western Development Region"
+                "name": "Madhesh"
             },
             {
-                "name": "Gandaki Zone"
-            },
-            {
-                "name": "Janakpur Zone"
-            },
-            {
-                "name": "Karnali Zone"
-            },
-            {
-                "name": "Kosi Zone"
-            },
-            {
-                "name": "Lumbini Zone"
-            },
-            {
-                "name": "Mahakali Zone"
-            },
-            {
-                "name": "Mechi Zone"
-            },
-            {
-                "name": "Mid-Western Region"
-            },
-            {
-                "name": "Narayani Zone"
-            },
-            {
-                "name": "Rapti Zone"
-            },
-            {
-                "name": "Sagarmatha Zone"
-            },
-            {
-                "name": "Seti Zone"
-            },
-            {
-                "name": "Western Region"
+                "name": "Sudurpashchim"
             }
         ]
     },
@@ -13907,6 +13680,29 @@
             },
             {
                 "name": "West Grand Bahama"
+            }
+        ]
+    },
+    {
+        "name": "The Gambia ",
+        "states": [
+            {
+                "name": "Banjul"
+            },
+            {
+                "name": "Central River Division"
+            },
+            {
+                "name": "Lower River Division"
+            },
+            {
+                "name": "North Bank Division"
+            },
+            {
+                "name": "Upper River Division"
+            },
+            {
+                "name": "West Coast Division"
             }
         ]
     },
